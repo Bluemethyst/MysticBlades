@@ -1,0 +1,11 @@
+name: MysticBlades
+version: '1.0-SNAPSHOT'
+main: dev.bluemethyst.mysticBlades.MysticBlades
+api-version: '1.21'
+commands:
+  givecustomsword:
+    description: Gives the player a custom sword
+    usage: /<command>
+  givecustomgem:
+    description: Gives the player a custom gem
+    usage: /<command>
