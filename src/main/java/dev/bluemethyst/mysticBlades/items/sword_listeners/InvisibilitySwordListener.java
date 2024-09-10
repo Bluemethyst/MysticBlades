@@ -66,7 +66,7 @@ public class InvisibilitySwordListener implements Listener {
             }};
             for (Player loopedPlayer : Bukkit.getOnlinePlayers()) {
                 if (loopedPlayer == player) {
-                    return;
+                    continue;
                 }
                 loopedPlayer.sendEquipmentChange(player, emptyEquipment);
             }
